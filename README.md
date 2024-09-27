@@ -48,3 +48,7 @@ Este projeto é um sistema de gerenciamento para corredores, permitindo que os u
 6. **Explore o Sistema:**
    - Navegue pelas diferentes funcionalidades e aproveite o gerenciamento de informações para corredores!
 
+## Licença 📄
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
