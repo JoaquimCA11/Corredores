@@ -14,9 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($user && password_verify($senha, $user['senha'])) {
         $_SESSION['user_id'] = $user['id'];
+        $_SESSION['email'] = $user['email']; // Armazena o e-mail na sessão
         header("Location: dashboard.php");
+        exit();
     } else {
-        echo "Email ou senha incorretos.";
+        $msg = "Email ou senha incorretos.";
     }
 }
 ?>

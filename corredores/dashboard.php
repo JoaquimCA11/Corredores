@@ -42,6 +42,16 @@ $corredores = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </style>
 </head>
 <body>
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sistema de Corredores</a>
+        <div>
+            <a href="perfil.php" class="btn btn-outline-primary">Meu Perfil</a>
+            <a href="logout.php" class="btn btn-outline-danger">Logout</a>
+        </div>
+    </div>
+</nav>
+
     <div class="container">
         <div class="table-container">
             <h2 class="text-center mb-4">Lista de Corredores</h2>
@@ -71,9 +81,6 @@ $corredores = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <?php endforeach; ?>
                 </tbody>
             </table>
-            <div class="text-center logout-btn">
-                <a href="logout.php" class="btn btn-primary">Logout</a>
-            </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
