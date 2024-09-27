@@ -16,3 +16,7 @@ Este projeto é um sistema de gerenciamento para corredores, permitindo que os u
 - **MySQL:** Banco de dados para armazenamento de informações dos usuários.
 - **Bootstrap:** Framework para estilização e design responsivo.
 - **HTML/CSS:** Para a estruturação e estilização das páginas.
+
+## Estrutura do Projeto 📂
+
+├── auth.php # Autenticação de usuários ├── db.php # Conexão com o banco de dados ├── index.php # Página inicial ├── login.php # Página de login ├── registro.php # Página de registro de novos usuários ├── dashboard.php # Página do dashboard ├── perfil.php # Página de edição de perfil do usuário ├── deletar.php # Lógica para deletar a conta do usuário └── ... # Outras páginas e arquivos necessários
