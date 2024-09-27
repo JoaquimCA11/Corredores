@@ -1,18 +1,18 @@
-# Sistema de Gerenciamento de Corredores 🏃‍♂️
+# Sistema de Corredores 🏃‍♂️🏃‍♀️
 
-Este é um sistema simples de gerenciamento de corredores, desenvolvido em **PHP** com **Bootstrap** para um design minimalista e responsivo. O sistema permite o cadastro de corredores, autenticação via login, e exibe uma lista detalhada de todos os corredores cadastrados.
+Este projeto é um sistema de gerenciamento para corredores, permitindo que os usuários se cadastrem, visualizem suas informações pessoais e atualizem seus perfis. O objetivo é fornecer uma plataforma simples e eficiente para que corredores possam gerenciar suas informações e acompanhar seu desempenho.
 
-## Funcionalidades 🚀
+## Funcionalidades ✨
 
-- **Cadastro de Corredores**: Registre informações detalhadas dos corredores, como nome, email, idade, gênero, cidade, distância favorita e tempo médio.
-- **Autenticação Segura**: Sistema de login protegido, garantindo que apenas usuários autenticados possam acessar a lista de corredores.
-- **Lista de Corredores**: Exibe uma tabela estilizada com os dados dos corredores cadastrados.
-- **Logout**: Possibilidade de encerrar a sessão com um clique.
+- **Cadastro de Usuários:** Permite que novos corredores se cadastrem no sistema.
+- **Login:** Usuários podem fazer login para acessar suas informações.
+- **Dashboard:** Visualização de estatísticas e dados pessoais.
+- **Edição de Perfil:** Usuários podem atualizar suas informações pessoais, incluindo nome, idade, gênero, cidade, distância favorita e tempo médio.
+- **Deletar Conta:** Opção para que usuários excluam suas contas do sistema.
 
-## Tecnologias Utilizadas 🛠️
+## Tecnologias Utilizadas 💻
 
-- **PHP**: Para a lógica do servidor e conexão com o banco de dados.
-- **Bootstrap 5**: Framework CSS para um design moderno e responsivo.
-- **MySQL**: Banco de dados para armazenar as informações dos corredores.
-- **HTML5**: Estruturação das páginas.
-- **CSS3**: Estilização personalizada para complementar o Bootstrap.
+- **PHP:** Para o backend e manipulação de dados.
+- **MySQL:** Banco de dados para armazenamento de informações dos usuários.
+- **Bootstrap:** Framework para estilização e design responsivo.
+- **HTML/CSS:** Para a estruturação e estilização das páginas.
