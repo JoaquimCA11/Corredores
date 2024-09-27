@@ -50,5 +50,5 @@ Este projeto é um sistema de gerenciamento para corredores, permitindo que os u
 
 ## Licença 📄
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT.
 
